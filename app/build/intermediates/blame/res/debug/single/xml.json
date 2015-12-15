@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\adriano\\AndroidStudioProjects\\MyLenses\\app\\build\\intermediates\\res\\merged\\debug\\xml\\ecommerce_tracker.xml",
+        "source": "C:\\Users\\adriano\\AndroidStudioProjects\\MyLenses\\app\\src\\main\\res\\xml\\ecommerce_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\adriano\\AndroidStudioProjects\\MyLenses\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_tracker.xml",
+        "source": "C:\\Users\\adriano\\AndroidStudioProjects\\MyLenses\\app\\src\\main\\res\\xml\\app_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\adriano\\AndroidStudioProjects\\MyLenses\\app\\build\\intermediates\\res\\merged\\debug\\xml\\global_tracker.xml",
+        "source": "C:\\Users\\adriano\\AndroidStudioProjects\\MyLenses\\app\\src\\main\\res\\xml\\global_tracker.xml"
+    }
+]

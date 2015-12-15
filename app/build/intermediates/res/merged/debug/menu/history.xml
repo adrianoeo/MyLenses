@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuDeleteHistory"
+        android:icon="@drawable/ic_action_discard"
+        android:orderInCategory="1"
+        android:title="@string/menuDelete"/>
+    <item
+        android:id="@+id/menuShareHistory"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="2"
+        android:title="@string/menuShare"/>
+
+</menu>

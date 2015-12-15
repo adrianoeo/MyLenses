@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="array_menu">
+        <item>Status de las lentes</item>
+        <item>Período de las lentes</item>
+        <item>Datos de las lentes</item>
+        <item>Notificación</item>
+        <item>Histórico</item>
+        <item>Comprar sus lentes</item>
+    </string-array>
+    <string-array name="array_type_lens">
+        <item>Miopía/Hipermetropía</item>
+        <item>Astigmatismo</item>
+        <item>Multifocal/Presbiopía</item>
+        <item>Colorida/Sin grado</item>
+    </string-array>
+    <string-array name="discard_array">
+        <item>Día</item>
+        <item>Mes</item>
+        <item>Año</item>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#009933</color>
+    <color name="red">#CC0033</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="action_settings">Configuración</string>
+    <string name="app_name">Mis Lentes</string>
+    <string name="btnDatePicker">Fecha</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_no">No</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_yes">Sí</string>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necesita que la aplicación Android Wear se actualice."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no actualices la aplicación Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Actualizar Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necesita uno o varios servicios de Google Play que no están disponibles en este momento. Ponte en contacto con el desarrollador para obtener ayuda."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Habilitar servicios de Google Play"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites los servicios de Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Habilitar servicios de Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Solicitada por <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Descargar servicios de Google Play"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará si los servicios de Google Play no están instalados en tu teléfono."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará si los servicios de Google Play no están instalados en tu tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Descargar servicios de Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Cuenta no válida"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Una aplicación requiere que se habiliten los servicios de Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Se necesita una conexión de datos para establecer conexión con los servicios de Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Error de red"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Una aplicación requiere una actualización de servicios de Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Error de servicios de Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Error al iniciar sesión en la cuenta especificada. Selecciona otra cuenta."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Error al iniciar sesión"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Error desconocido relacionado con los servicios de Google Play"</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> se basa en los servicios de Google Play, pero no son compatibles con tu dispositivo. Ponte en contacto con el fabricante para obtener asistencia."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Servicios de Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no actualices los servicios de Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Actualiza los servicios de Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que finalice la actualización en curso de los servicios de Google Play."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Actualización servicios Play en curso"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="dateLeftEye">Fecha de inicio:</string>
+    <string name="dateRightEye">Fecha de inicio:</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="lblMonths">Tiempo para cambio:</string>
+    <string name="lbl_add">Adición</string>
+    <string name="lbl_axis">Eje</string>
+    <string name="lbl_brand">Fabricante</string>
+    <string name="lbl_buy_site">Sitio de compras de las lentes</string>
+    <string name="lbl_cylinder">Cilindro</string>
+    <string name="lbl_date_ini_wear">Fecha de inicio de la lente * Importante para contar las unidades restantes</string>
+    <string name="lbl_date_ini_wear2">Fecha de inicio de la lente</string>
+    <string name="lbl_desc_lens">Nombre de lente</string>
+    <string name="lbl_number_units">Cantidad</string>
+    <string name="lbl_power">Grado</string>
+    <string name="lbl_type_lens">Tipo de lente</string>
+    <string name="leftEye">Ojo izquierdo</string>
+    <string name="menuAlarm">Notificación</string>
+    <string name="menuBuy">Comprar sus lentes</string>
+    <string name="menuCancel">Cancelar</string>
+    <string name="menuDelete">Excluir</string>
+    <string name="menuEdit">Editar</string>
+    <string name="menuHelp">Help</string>
+    <string name="menuHistory">Historia</string>
+    <string name="menuInsert">Insertar</string>
+    <string name="menuLenses">Datos de las Lentes</string>
+    <string name="menuSave">Guardar</string>
+    <string name="menuShare">Compartir</string>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Salida multimedia"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Buscando dispositivos…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Conectar a dispositivo"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Desconectar"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivos"</string>
+    <string name="msgCancelEdit">Edición cancelada</string>
+    <string name="msgDelete">¿Quieres eliminar?</string>
+    <string name="msgDeleteAllHistory">¿Quieres eliminar toda la Historia?</string>
+    <string name="msgNotificationBothEyes">Cambie sus lentes</string>
+    <string name="msgNotificationChangeLens">Mis Lentes</string>
+    <string name="msgNotificationLeftEye">Cambie su lente izquierda</string>
+    <string name="msgNotificationRightEye">Cambie su lente derecha</string>
+    <string name="msgNotificationTitle">Es hora de cambiar sus lentes</string>
+    <string name="msgSaved">Guardado con éxito</string>
+    <string name="msg_are_you_wearing_today">¿Estás usando hoy?</string>
+    <string name="msg_cancel_notification">No solicitar en los próximos días</string>
+    <string name="msg_insert_time_of_lenses">Por favor, introduzca un período para la lente</string>
+    <string name="msg_insert_time_replace">Introduzca un período de lentes</string>
+    <string name="msg_must_have_history">Un registro fue creado porque hay datos de sus lentes.</string>
+    <string name="msg_no_buy_site">Sitio de compras no se ha especificado en Datos de las Lentes.\n¿Le gustaría abrir el navegador de todos modos?</string>
+    <string name="msg_no_items_to_display">No hay elementos</string>
+    <string name="msg_press_once_again_to_exit">Presione de nuevo para salir</string>
+    <string name="msg_select_which_lens">Seleccione una de las opciones</string>
+    <string name="msg_units">Las unidades se calculan de acuerdo a la fecha de inicio de \"Datos de las lentes\" e las fechas de los \"Períodos das Lentes\".\nPor favor, establece la fecha de inicio en \"Datos de las Lentes\" menor o igual a la lente que desea iniciar.</string>
+    <string name="rightEye">Ojo derecho</string>
+    <string name="service_daily_name">¿Usando lente?</string>
+    <string name="service_name">Cambiar lentes</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="str_both">Ambos</string>
+    <string name="str_count_unit">Contar unidad</string>
+    <string name="str_date_history">Fecha:</string>
+    <string name="str_day_expired">Día caducado</string>
+    <string name="str_day_not_used">Día no usado</string>
+    <string name="str_day_remaining">Día para cambiar</string>
+    <string name="str_days_before">Recuerde me días antes</string>
+    <string name="str_days_expired">Días caducados</string>
+    <string name="str_days_not_used">Días no usados</string>
+    <string name="str_days_remaining">Días para cambiar</string>
+    <string name="str_email_subject">Historia de Mis Lentes</string>
+    <string name="str_email_subject_data_lenses">Datos de Mis Lentes</string>
+    <string name="str_history_date">FECHA:</string>
+    <string name="str_in_use">Usando</string>
+    <string name="str_left">Izquierda</string>
+    <string name="str_remind_every_day">Recuerde me todos los días que estoy usando</string>
+    <string name="str_right">Derecha</string>
+    <string name="str_set_time_alarm">Momento de la notificación</string>
+    <string name="str_share_via">Compartir vía</string>
+    <string name="str_time_to_replace">Momento de cambiar</string>
+    <string name="str_unit_remaining">Unidad restante</string>
+    <string name="str_units_remaining">Unidades restantes</string>
+    <string name="tabDays">Días para cambiar</string>
+    <string name="tabLeftLens">Lente Izquierda</string>
+    <string name="tabLens">Período de las Lentes</string>
+    <string name="tabRightLens">Lente Derecha</string>
+    <string name="title_activity_alarm">Notificación</string>
+    <string name="title_activity_days">Status de las lentes</string>
+    <string name="title_activity_history">Historia</string>
+    <string name="title_activity_lenses">Datos</string>
+    <string name="title_activity_list_time_lens">Período de las lentes</string>
+    <string name="title_activity_time_lens">Tiempo</string>
+    <string name="title_number_picker_days_not_used">Días que no los he usado</string>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Comprar con Google"</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

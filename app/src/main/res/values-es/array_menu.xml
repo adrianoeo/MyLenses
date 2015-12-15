@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_menu">
+        <item>Status de las lentes</item>
+        <item>Período de las lentes</item>
+        <item>Datos de las lentes</item>
+        <item>Notificación</item>
+        <item>Histórico</item>
+        <item>Comprar sus lentes</item>
+    </string-array>
+
+</resources>

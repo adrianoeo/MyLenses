@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="array_type_lens">
+        <item>Miopia/Hipermetropia</item>
+        <item>Astigmatismo</item>
+        <item>Multifocal/Presbiopia</item>
+        <item>Colorida/Sem grau</item>
+    </string-array>
+</resources>    

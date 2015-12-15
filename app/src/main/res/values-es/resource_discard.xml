@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="discard_array">
+        <item>Día</item>
+        <item>Mes</item>
+        <item>Año</item>
+    </string-array>
+</resources>    

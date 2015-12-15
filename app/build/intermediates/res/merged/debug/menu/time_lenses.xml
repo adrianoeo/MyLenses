@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuEditLenses"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="1"
+        android:title="@string/menuEdit"/>
+    <item
+        android:id="@+id/menuDeleteLenses"
+        android:icon="@drawable/ic_action_discard"
+        android:orderInCategory="2"
+        android:title="@string/menuDelete"/>
+    <item
+        android:id="@+id/menuSaveLenses"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="3"
+        android:title="@string/menuSave"/>
+    <item
+        android:id="@+id/menuCancelLenses"
+        android:icon="@drawable/ic_action_cancel"
+        android:orderInCategory="4"
+        android:title="@string/menuCancel"/>
+
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <array name="array_drawable_icon">
+        <item>@drawable/ic_status</item>
+        <item>@drawable/ic_calendar</item>
+        <item>@drawable/ic_data_lens</item>
+        <item>@drawable/ic_clock</item>
+        <item>@drawable/ic_history</item>
+        <item>@drawable/ic_shop</item>
+    </array>
+</resources>    

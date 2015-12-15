@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="array_brand">
+        <item>Alcon</item>
+        <item>Alden</item>
+        <item>Baush and Lomb</item>
+        <item>Ciba Vision</item>
+        <item>Coopervision</item>
+        <item>Johnson and Johnson</item>
+        <item>Opto Lentes</item>
+        <item>Solotica</item>
+        <item>Zeiss</item>
+    </string-array>
+</resources>    

@@ -1,0 +1,302 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewLens"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fillViewport="true" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:stretchColumns="0, 1, 2, 3, 4" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvIdLens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView android:layout_marginLeft="10dp" />
+
+            <CheckBox
+                android:id="@+id/cbxWearLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/str_in_use" >
+            </CheckBox>
+
+            <TextView />
+
+            <CheckBox
+                android:id="@+id/cbxWearRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/str_in_use" >
+            </CheckBox>
+
+            <TextView android:layout_marginRight="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/tvLeftEye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/leftEye"
+                android:textColor="@color/green"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView />
+
+            <TextView
+                android:id="@+id/tvRightEye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/rightEye"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView android:layout_marginRight="10dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/tvLeftEyeSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/dateLeftEye"
+                android:textSize="15sp" />
+
+            <!-- <View -->
+            <!-- android:layout_width="1dp" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:background="@android:color/darker_gray" /> -->
+
+            <TextView android:layout_width="40dp" />
+
+            <TextView
+                android:id="@+id/tvRightEyeSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/dateRightEye"
+                android:textSize="15sp" />
+
+            <TextView android:layout_marginRight="10dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+
+            <Button
+                android:id="@+id/btnDateLeft"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/btnDatePicker"
+                android:textSize="14sp" />
+
+            <!-- <View -->
+            <!-- android:layout_width="1dp" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:background="@android:color/darker_gray" /> -->
+
+            <TextView />
+
+            <Button
+                android:id="@+id/btnDateRight"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/btnDatePicker"
+                android:textSize="14sp" />
+
+            <TextView />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow>
+
+            <TextView />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/lblMonths"
+                android:textSize="15sp" />
+
+            <!-- <View -->
+            <!-- android:layout_width="1dp" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:background="@android:color/darker_gray" /> -->
+
+            <TextView />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/lblMonths"
+                android:textSize="15sp" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+
+            <NumberPicker
+                android:id="@+id/numberPickerLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:theme="@android:style/Theme.Light" />
+
+            <!-- <View -->
+            <!-- android:layout_width="1dp" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:background="@android:color/darker_gray" /> -->
+
+            <TextView />
+
+            <NumberPicker
+                android:id="@+id/numberPickerRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+
+            <Spinner
+                android:id="@+id/spinnerLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <!-- <View -->
+            <!-- android:layout_width="1dp" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:background="@android:color/darker_gray" /> -->
+
+            <TextView />
+
+            <Spinner
+                android:id="@+id/spinnerRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView android:layout_marginLeft="10dp" />
+
+            <CheckBox
+                android:id="@+id/cbxCountUnitLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/str_count_unit" >
+            </CheckBox>
+
+            <TextView />
+
+            <CheckBox
+                android:id="@+id/cbxCountUnitRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/str_count_unit" >
+            </CheckBox>
+
+            <TextView android:layout_marginRight="10dp" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
